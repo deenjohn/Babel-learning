@@ -1,0 +1,19 @@
+{
+  "name": "babel-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-classes": "^7.5.5",
+    "@babel/plugin-transform-literals": "^7.2.0",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
